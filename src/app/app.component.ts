@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'lamangeaille_front';
+  title = 'gestion_entrer_sortie_front';
 }

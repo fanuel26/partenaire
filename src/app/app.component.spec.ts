@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'lamangeaille_front'`, () => {
+  it(`should have as title 'gestion_entrer_sortie_front'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('lamangeaille_front');
+    expect(app.title).toEqual('gestion_entrer_sortie_front');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('lamangeaille_front app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('gestion_entrer_sortie_front app is running!');
   });
 });
